@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/simple-jenkins-project.git'
+                git 'https://github.com/theuntoldcreator/simple_jenkins_project.git'
             }
         }
         stage('Build') {
